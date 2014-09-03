@@ -52,7 +52,7 @@ class TouchID: NSObject {
             reasonString = reason
         }
         
-        // Declare and initialize a custom error variable to represent a LocalAuthentication error (LAError).
+        // Declare a custom error variable to represent a LocalAuthentication error (LAError).
         var customErrorCode : TouchIDErrorCode?
         
         // Check if the device can evaluate the policy.
